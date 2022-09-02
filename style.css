@@ -1,0 +1,121 @@
+body 
+{
+    font-family: 'Gill Sans MT';
+    background-color: rgb(202, 26, 111);
+}
+
+@media only screen and (max-width: 725px) {
+    li 
+    {
+        width:70%;
+    }
+    
+}
+.nav-list 
+{
+    background: rgb(67, 3, 58);
+    box-shadow: 3px 3px 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-items 
+{
+    list-style-type: none;
+    margin-right: 2rem;
+    float: left;
+}
+.nav-items a 
+{
+    text-decoration: none;
+    color: crimson;
+}
+.nav-items:first-child
+{
+    margin-right: auto;
+    margin-left: 2rem;
+    color: crimson;
+}
+.first-btn
+{
+    font-family: 'Gill Sans MT';
+    font-size: 1rem;
+    border-radius: 1px;
+    outline-color: rgb(207, 46, 180);
+    outline-style: double;
+    padding: 1px 1rem;
+    cursor: pointer;
+    transition: all 400ms ease-in;
+    background-color: transparent;
+    color: crimson;
+}
+.first-btn:hover
+{
+    background: transparent;
+    color: white;
+}
+.nav-items a:hover
+{
+    color: rgb(117, 115, 97);
+}
+.Guine-profile
+{
+    width: 600px;
+    height: 500px;
+    background-image: url(Guin.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 76vh;
+}
+.profile-name
+{
+    justify-content: center;
+    color: rgb(104, 12, 64);
+    font-family: sans-serif;
+    padding-top: 0%;
+}
+.p2
+{
+    color: white;
+}
+.about-page
+{
+    background-size: 100%;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 3px 3px 5px;
+    color: rgb(73, 5, 24);
+    font-family: sans-serif;
+    list-style-type: none;
+    padding-top: 40px;
+    height: 99vh;
+}
+.about-it
+{
+    margin: 15px
+}
+.gallery-items
+{
+    background-size: 100%;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    list-style-type: none;
+    padding-top: 40px;
+    
+}
